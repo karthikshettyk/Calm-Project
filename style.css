@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f5ed;
+  margin-left: 200px;
+}
+
+.navigation-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.unordered-list {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.unordered-list-item {
+  display: inline-block;
+}
+
+.logo-image > img {
+  margin-top: 10px;
+}
+.item1,
+.item2,
+.item3 {
+  margin-left: 40px;
+  font-size: 25px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.left-section {
+  position: absolute;
+  top: 300px;
+}
+
+.left-section-part1 {
+  font-size: 50px;
+}
+
+.left-section-part2 {
+  position: relative;
+  top: 10px;
+  font-size: 50px;
+}
+
+.left-section-part3 {
+  position: relative;
+  top: 20px;
+  font-size: 20px;
+}
+
+.left-section-part4 > button {
+  position: relative;
+  top: 40px;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #3b855b;
+  color: white;
+  font-weight: bold;
+  border-style: solid;
+  border-color: #3b855b;
+}
+
+.right-section {
+  position: absolute;
+  top: 80px;
+  right: 150px;
+  bottom: 50px;
+  margin-bottom: 100px;
+}
+
+.right-section-part1 {
+}
+
+.right-section-part1-1 {
+}
+
+.right-section-part1-2 {
+}
+
+.right-section-part2 > img {
+}
+
+
